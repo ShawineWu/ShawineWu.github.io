@@ -38,8 +38,9 @@ npm run server
 
 **首次部署前请完成：**
 
-1. 在仓库 **Settings → Pages** 中：
-   - **Source** 选择 **GitHub Actions**，保存。
+1. 在仓库 **Settings → Pages**（或 **Settings → Build and deployment**）中：
+   - **Source** 必须选择 **GitHub Actions**（不要选 “Deploy from a branch”），保存。
+   - 若选成 “Deploy from a branch”，GitHub 会用 Jekyll 构建，会报 `Could not find 'reimu'`（reimu 是 Hexo 主题，不是 Jekyll 主题）。
 
 2. 将本地代码推送到默认分支（通常为 `main`）：
 
