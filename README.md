@@ -32,21 +32,26 @@ npm run server
 - 新建文章：`npx hexo new post "文章标题"`
 - 新建页面：`npx hexo new page "页面名称"`
 
-## 部署到 GitHub Pages
+## 部署到 GitHub Pages（GitHub Actions）
+
+本项目使用 [GitHub Actions](https://hexo.io/zh-cn/docs/github-pages) 自动部署：推送源码到 `main` 后自动构建并发布，无需本地执行 `hexo deploy`。
+
+**首次部署前请完成：**
 
 1. 在仓库 **Settings → Pages** 中：
-   - Source 选择 **Deploy from a branch**
-   - Branch 选择 **gh-pages**，目录选 **/ (root)**，保存。
+   - **Source** 选择 **GitHub Actions**，保存。
 
-2. 本地执行部署（会生成站点并推送到 `gh-pages` 分支）：
+2. 将本地代码推送到默认分支（通常为 `main`）：
 
    ```bash
-   npm run deploy
+   git add .
+   git commit -m "Deploy with GitHub Actions"
+   git push -u origin main
    ```
 
-3. 首次部署可能需要配置 GitHub 认证（SSH 或 Personal Access Token）。若使用 HTTPS，可在 `_config.yml` 的 `deploy.repo` 中写入：
+3. 推送后到 **Actions** 页查看工作流运行情况，成功后访问 **https://ShawineWu.github.io** 即可。
 
-   `https://<token>@github.com/ShawineWu/ShawineWu.github.io.git`
+之后每次 `git push` 到 `main` 都会自动重新构建并更新站点。工作流配置见 `.github/workflows/pages.yml`。
 
 ## 主题与结构
 
