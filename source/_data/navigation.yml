@@ -6,19 +6,8 @@
       url: https://us-east-2.console.aws.amazon.com/console/home?nc2=h_ct&region=us-east-2&src=header-signin#
     - name: SQS (ap-southeast-1)
       url: https://ap-southeast-1.console.aws.amazon.com/sqs/v3/home?region=ap-southeast-1#/queues
-    - name: Secrets Manager (bart/test)
+    - name: Secrets Manager
       url: https://ap-southeast-1.console.aws.amazon.com/secretsmanager/secret?name=scm-team%2Fbart%2Ftest&region=ap-southeast-1#
-
-- name: ClickUp
-  items:
-    - name: ClickUp 看板
-      url: https://app.clickup.com/3607486/v/b/6-18449059-2
-    - name: ClickUp 空间 90180349092
-      url: https://app.clickup.com/3607486/v/o/s/90180349092
-    - name: ClickUp 空间 90184288875
-      url: https://app.clickup.com/3607486/v/o/s/90184288875
-    - name: ClickUp 列表
-      url: https://app.clickup.com/3607486/v/l/3e2xy-145518
 
 - name: Confluence 知识库
   items:
@@ -53,34 +42,78 @@
     - name: SonarQube 集成文档
       url: https://castlery.atlassian.net/wiki/spaces/TEC/pages/2786394765/SonarQube+-+SonarQube+project+integration+documentation
 
-- name: SharePoint
-  items:
-    - name: SharePoint 个人 (Evan)
-      url: https://cslr-my.sharepoint.com/:w:/g/personal/evan_sun_castlery_com/EWYHhwn40XdJl-HhZTsbZNYB9V-Y3h-y1TqxEz4s39N0oQ?e=OB7zfZ&wdOrigin=TEAMS-MAGLEV.p2p_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1707103188843&web=1
-    - name: Team Tech Entity fields
-      url: https://cslr.sharepoint.com/:x:/r/sites/team-tech/_layouts/15/Doc.aspx?sourcedoc=%7B017A5CF2-6F73-42CF-A9B5-FC07C3D621AE%7D&file=Entity%20fields.xlsx&action=default&mobileredirect=true
-    - name: SharePoint 个人 (Haoming)
-      url: https://cslr-my.sharepoint.com/:w:/g/personal/haoming_wei_castlery_com/EVvqlGUwQ_VHu1G7Tol6B1kBhkDLrR4nsL46zEU4AuPkew?e=A1aHeW&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI1MC8yNDA4MDIxMjAwOCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D
-
 - name: Castlery 测试环境
   items:
     - name: PIM 属性组 (cowboy-test)
       url: https://cowboy-test.castlery.com/pims/attributes-management/property-group-list?current=1&pageSize=20
     - name: IEMS 导出模板 (cowboy-test)
       url: https://cowboy-test.castlery.com/iems/export-template-management/export-template-list?current=1&pageSize=20
-
-- name: Castlery Spree 后台
-  items:
-    - name: Knight SG Admin 登录
-      url: https://knight-test.castlery.sg/spree/admin/login
-    - name: Knight SG Orders
-      url: https://knight-test.castlery.sg/spree/admin/orders
-    - name: Knight AU Orders
-      url: https://knight-test.castlery.com.au/spree/admin/orders
-    - name: Knight CO Admin 登录
-      url: https://knight-test.castlery.co/spree/admin/login
-    - name: Knight CO Orders
+    - name: 商城前台 US
+      url: https://www-test.castlery.com/us
+      desc: 自己注册
+    - name: 商城前台 SG
+      url: https://www-test.castlery.com/sg
+      desc: 自己注册
+    - name: 商城前台 AU
+      url: https://www-test.castlery.com/au
+      desc: 自己注册
+    - name: 商城 POS SG
+      url: https://pos-test.castlery.com/sg/login
+    - name: 商城 POS AU
+      url: https://pos-test.castlery.com/au/login
+    - name: 商城 POS US
+      url: https://pos-test.castlery.com/us/login
+    - name: 商城后台 Knight UK
       url: https://knight-test.castlery.co/spree/admin/orders
+    - name: 商城后台 Knight SG
+      url: https://knight-test.castlery.sg/spree/admin/orders
+    - name: 商城后台 Knight AU
+      url: https://knight-test.castlery.com.au/spree/admin/orders
+    - name: 商城后台 Knight CA
+      url: https://knight-ca-test.castlery.com/spree/admin/orders
+    - name: 商城后台 Knight UK (uk-test)
+      url: https://knight-uk-test.castlery.com/spree/admin/orders
+    - name: ERP NetSuite
+      url: https://6998539-sb1.app.netsuite.com/app/center/card.nl?sc=-29&whence=
+    - name: Cowboy Dashboard
+      url: https://cowboy-test.castlery.com/dashboard
+    - name: XXL-Job Test
+      url: https://xxl-job-admin-test.cslr.io/jobinfo
+    - name: RDS Test Env
+      url: https://castlery.atlassian.net/wiki/spaces/DEVOPS/pages/716734564/RDS+-+Test+Env
+      desc: 数据库/环境
+    - name: UMS Admin Test
+      url: https://ums-admin-test.castlery.com/users/list
+      desc: UMS
+    - name: Freshdesk 环境
+      url: https://castlery.atlassian.net/wiki/spaces/EC/pages/2573828227/Team+tools+-+New
+      desc: 见 Confluence Team tools
+    - name: UNIS Stage
+      url: https://castlery.atlassian.net/wiki/spaces/EC/pages/2573828227/Team+tools+-+New
+      desc: UNIS 账号与联系方式见内网
+    - name: Shipsgo
+      url: https://www.google.com/search?q=shipsgo
+      desc: 网址谷歌搜，账号见内网
+    - name: AWS ap-southeast-1
+      url: https://ap-southeast-1.console.aws.amazon.com/console/home?region=ap-southeast-1#
+    - name: 短信服务 Twilio
+      url: https://console.twilio.com/us1/monitor/logs/sms?frameUrl=%2Fconsole%2Fsms%2Flogs%3Fx-target-region%3Dus1
+    - name: 邮件服务 Mailgun
+      url: https://app.mailgun.com/app/sending/domains/castlery.com/logs?date_from=2021-12-10T00%3A00%3A00.000Z&date_to=2021-12-16T23%3A59%3A59.999Z
+    - name: Workwave 测试业务流程
+      url: https://castlery.atlassian.net/wiki/spaces/EC/pages/2573828227/Team+tools+-+New
+      desc: 见 Confluence
+    - name: 3PL Giga
+      url: http://test.tracking.gigacloudlogistics.com/giga/index.php?route=account/delivery&first_page=true
+      desc: 账号见内网
+    - name: 3PL Metro
+      url: http://stagingpinnacle.metropolitanwarehouse.com/CreateOrder/Index
+      desc: 账号见内网
+    - name: Aftership
+      url: https://castlery.atlassian.net/wiki/spaces/EC/pages/2573828227/Team+tools+-+New
+      desc: 用户账号见内网
+    - name: Temporal Test
+      url: https://temporal-test.cslr.io/namespaces/horus-test/workflows?range=last-30-days&status=ALL
 
 - name: 监控与可观测
   items:
@@ -144,3 +177,5 @@
       url: https://shield-tools.cslr.io/order
     - name: APISIX SG Test
       url: https://apisix-sg-test.cslr.io/
+    - name: ClickUp 看板
+      url: https://app.clickup.com/3607486/v/b/6-18449059-2
