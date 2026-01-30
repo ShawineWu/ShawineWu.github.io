@@ -1,0 +1,25 @@
+<div class="navigation-outer">
+  <%_ site.data.navigation.forEach(function(group) { _%>
+  <section class="navigation-section" data-aos="fade-up">
+    <h2 class="navigation-section-title"><%= group.name %></h2>
+    <div class="navigation-cards">
+      <%_ (group.items || []).forEach(function(item) { _%>
+      <div class="post-link-card-wrap">
+        <div class="post-link-card navigation-card">
+          <a href="<%= item.url %>" target="_blank" rel="noopener noreferrer" aria-label="<%= item.name %>" title="<%= item.name %>"></a>
+          <div class="post-link-card-cover-wrap auto">
+            <span class="icon-globe"></span>
+          </div>
+          <div class="post-link-card-item-wrap">
+            <div class="post-link-card-title"><%= item.name %></div>
+            <%_ if (item.desc) { _%>
+            <div class="post-link-card-excerpt"><span class="icon-link"></span><%= item.desc %></div>
+            <%_ } _%>
+          </div>
+        </div>
+      </div>
+      <%_ }); _%>
+    </div>
+  </section>
+  <%_ }); _%>
+</div>

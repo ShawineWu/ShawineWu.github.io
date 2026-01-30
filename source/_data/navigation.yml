@@ -1,0 +1,146 @@
+# 导航站数据：按分类维护链接，推送后自动生效
+
+- name: AWS 云控制台
+  items:
+    - name: AWS Console (us-east-2)
+      url: https://us-east-2.console.aws.amazon.com/console/home?nc2=h_ct&region=us-east-2&src=header-signin#
+    - name: SQS (ap-southeast-1)
+      url: https://ap-southeast-1.console.aws.amazon.com/sqs/v3/home?region=ap-southeast-1#/queues
+    - name: Secrets Manager (bart/test)
+      url: https://ap-southeast-1.console.aws.amazon.com/secretsmanager/secret?name=scm-team%2Fbart%2Ftest&region=ap-southeast-1#
+
+- name: ClickUp
+  items:
+    - name: ClickUp 看板
+      url: https://app.clickup.com/3607486/v/b/6-18449059-2
+    - name: ClickUp 空间 90180349092
+      url: https://app.clickup.com/3607486/v/o/s/90180349092
+    - name: ClickUp 空间 90184288875
+      url: https://app.clickup.com/3607486/v/o/s/90184288875
+    - name: ClickUp 列表
+      url: https://app.clickup.com/3607486/v/l/3e2xy-145518
+
+- name: Confluence 知识库
+  items:
+    - name: TEC 空间
+      url: https://castlery.atlassian.net/wiki/spaces/TEC/pages/2619376316
+    - name: EC Team Tools
+      url: https://castlery.atlassian.net/wiki/spaces/EC/pages/2533359942/Team+Tools
+    - name: EC 产品表结构
+      url: https://castlery.atlassian.net/wiki/spaces/EC/pages/2611249169/Product+related+table+structure+organization
+    - name: EC Backend
+      url: https://castlery.atlassian.net/wiki/spaces/EC/pages/2403991597/Backend
+    - name: TEC 文档
+      url: https://castlery.atlassian.net/wiki/spaces/TEC/pages/2383544337
+    - name: PIM timeline
+      url: https://castlery.atlassian.net/wiki/spaces/TEC/pages/2842165446/PIM+timeline
+    - name: EC Team tools New
+      url: https://castlery.atlassian.net/wiki/spaces/EC/pages/2573828227/Team+tools+-+New
+    - name: Kubernetes AWS EKS
+      url: https://castlery.atlassian.net/wiki/spaces/TEC/pages/705003529/Kubernetes+-+AWS+EKS
+    - name: SC 空间
+      url: https://castlery.atlassian.net/wiki/spaces/TEC/pages/2868707337/SC
+    - name: Guide Checkout Payment
+      url: https://castlery.atlassian.net/wiki/spaces/EC/pages/2404584973/Guide+Checkout+Payment
+    - name: IMS Integrations
+      url: https://castlery.atlassian.net/wiki/spaces/NS/pages/2731573393/IMS+Integrations
+    - name: RDS Test Env
+      url: https://castlery.atlassian.net/wiki/spaces/DEVOPS/pages/716734564/RDS+-+Test+Env
+    - name: teleport EKS
+      url: https://castlery.atlassian.net/wiki/spaces/TEC/pages/2376368129/teleport+eks
+    - name: SC Backend Git Branch Flow
+      url: https://castlery.atlassian.net/wiki/spaces/TEC/pages/3416260666/SC+Backend+Git+Branch+Flow
+    - name: SonarQube 集成文档
+      url: https://castlery.atlassian.net/wiki/spaces/TEC/pages/2786394765/SonarQube+-+SonarQube+project+integration+documentation
+
+- name: SharePoint
+  items:
+    - name: SharePoint 个人 (Evan)
+      url: https://cslr-my.sharepoint.com/:w:/g/personal/evan_sun_castlery_com/EWYHhwn40XdJl-HhZTsbZNYB9V-Y3h-y1TqxEz4s39N0oQ?e=OB7zfZ&wdOrigin=TEAMS-MAGLEV.p2p_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1707103188843&web=1
+    - name: Team Tech Entity fields
+      url: https://cslr.sharepoint.com/:x:/r/sites/team-tech/_layouts/15/Doc.aspx?sourcedoc=%7B017A5CF2-6F73-42CF-A9B5-FC07C3D621AE%7D&file=Entity%20fields.xlsx&action=default&mobileredirect=true
+    - name: SharePoint 个人 (Haoming)
+      url: https://cslr-my.sharepoint.com/:w:/g/personal/haoming_wei_castlery_com/EVvqlGUwQ_VHu1G7Tol6B1kBhkDLrR4nsL46zEU4AuPkew?e=A1aHeW&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI1MC8yNDA4MDIxMjAwOCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D
+
+- name: Castlery 测试环境
+  items:
+    - name: PIM 属性组 (cowboy-test)
+      url: https://cowboy-test.castlery.com/pims/attributes-management/property-group-list?current=1&pageSize=20
+    - name: IEMS 导出模板 (cowboy-test)
+      url: https://cowboy-test.castlery.com/iems/export-template-management/export-template-list?current=1&pageSize=20
+
+- name: Castlery Spree 后台
+  items:
+    - name: Knight SG Admin 登录
+      url: https://knight-test.castlery.sg/spree/admin/login
+    - name: Knight SG Orders
+      url: https://knight-test.castlery.sg/spree/admin/orders
+    - name: Knight AU Orders
+      url: https://knight-test.castlery.com.au/spree/admin/orders
+    - name: Knight CO Admin 登录
+      url: https://knight-test.castlery.co/spree/admin/login
+    - name: Knight CO Orders
+      url: https://knight-test.castlery.co/spree/admin/orders
+
+- name: 监控与可观测
+  items:
+    - name: Datadog APM
+      url: https://app.datadoghq.com/apm/home
+    - name: Grafana TMS
+      url: https://grafana-prod-apse1.cslr.io/d/a6cWG3t4z/tms?orgId=1
+    - name: Datadog Logs (zeep-jobs)
+      url: https://app.datadoghq.com/logs?query=env%3Aprod%20service%3Azeep-jobs%20pod_name%3Azeep-prod-jobs-6bf57cf496-rmv7z&agg_m=count&agg_m_source=base&agg_t=count&cols=host%2Cservice&fromUser=true&messageDisplay=inline&refresh_mode=paused&storage=hot&stream_sort=desc&viz=stream&from_ts=1752575220000&to_ts=1752575520000&live=false
+    - name: Datadog Zeep Dashboard
+      url: https://app.datadoghq.com/dashboard/tb6-p4s-ezq/miles-zeep-dashboard?fromUser=true&refresh_mode=sliding&from_ts=1753153091556&to_ts=1753757891556&live=true
+    - name: Datadog Logs (netsuite)
+      url: https://app.datadoghq.com/logs?query=host%3Ai-0ce331a76376762b0%20service%3Anetsuite-service-jobs%20container_id%3Adf175027ffedd20f9412590004dbd9f14a5730a7c521ebcc71b6b0d98a266196%20filename%3A0.log%20%2A%3A%22TO100637%22&agg_m=count&agg_m_source=base&agg_t=count&cols=host%2Cservice&context_event=AZiKzqpjAAAx1H7Aj-U_sAAF&event=AwAAAZiI4uSo3MkBFQAAABhBWmlJNHZOMkFBQXhuaUpnLWx5elpnQUIAAAAkMTE5ODg5MGItNTRlMi00NzRkLTgxZmUtMDFmYzcyMTQ3YWYwAAjFVQ&messageDisplay=inline&refresh_mode=sliding&storage=hot&stream_sort=time%2Cdesc&viz=&from_ts=1754363080581&to_ts=1754967880581&live=true
+
+- name: 开发协作
+  items:
+    - name: Apifox 邀请
+      url: https://app.apifox.com/invite?token=S5gvI0hfYhmnxqQLMkkxu
+    - name: Apifox 团队
+      url: https://app.apifox.com/main/teams/2810519
+    - name: TAPD 工作台
+      url: https://www.tapd.cn/my_dashboard/index
+    - name: TAPD 需求列表
+      url: https://www.tapd.cn/tapd_fe/63903057/story/list?useScene=storyList&groupType=&conf_id=1163903057001001470
+
+- name: 部署与运维
+  items:
+    - name: ArgoCD bart-test
+      url: https://argocd.cslr.io/applications/argocd/bart-test?view=tree&resource=
+    - name: ArgoCD 应用列表
+      url: https://argocd.cslr.io/applications?showFavorites=false&proj=&sync=&autoSync=&health=&namespace=&cluster=&labels=
+    - name: XXL-Job Test v2
+      url: https://xxl-job-admin-v2-test.cslr.io/
+    - name: XXL-Job Dev
+      url: https://xxl-dev.cslr.io/
+    - name: XXL-Job Prod
+      url: https://xxl-job-admin-prod.cslr.io/jobinfo
+
+- name: 设计·文档
+  items:
+    - name: Axure 属性组原型
+      url: https://utuupm.axshare.com/#id=hkiffv&p=property_group_list&g=1
+    - name: Lucid 图表
+      url: https://lucid.app/lucidchart/2e596ce4-93bc-426b-89f8-4c5b8c252ecf/edit?docId=2e596ce4-93bc-426b-89f8-4c5b8c252ecf&shared=true&page=0_0&invitationId=inv_18fce1d1-d870-4bbf-8cd1-8e247d1659bf#
+    - name: Lucid 最近文档
+      url: https://lucid.app/documents#/home?folder_id=recent
+
+- name: AI·学习
+  items:
+    - name: DeepSeek Chat
+      url: https://chat.deepseek.com/
+    - name: 阿里云文章
+      url: https://developer.aliyun.com/article/60899#slide-8
+      desc: 技术文档
+
+- name: 内部服务
+  items:
+    - name: UMS 前端 (plat-ums)
+      url: https://plat-ums-frontend.cslr.io/
+    - name: Shield Tools 订单
+      url: https://shield-tools.cslr.io/order
+    - name: APISIX SG Test
+      url: https://apisix-sg-test.cslr.io/
