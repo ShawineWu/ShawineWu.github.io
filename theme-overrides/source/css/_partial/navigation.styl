@@ -1,0 +1,40 @@
+.navigation-outer
+  padding: 20px 0
+
+.navigation-section
+  margin-bottom: 40px
+
+  &:last-child
+    margin-bottom: 0
+
+.navigation-section-title
+  font-size: 22px
+  font-weight: 700
+  color: var(--color-h2)
+  margin-bottom: 20px
+  padding-bottom: 8px
+  position: relative
+
+  &:after
+    content: ''
+    position: absolute
+    background: var(--color-h2-after)
+    width: 2em
+    height: 6px
+    bottom: 0
+    left: 0
+    border-radius: tag-radius
+    box-shadow: var(--shadow-red-6-shadow)
+
+.navigation-cards
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr))
+  gap: 20px
+
+  .post-link-card-wrap
+    margin: 0
+    justify-content: stretch
+
+  .navigation-card
+    width: 100%
+    min-height: 70px

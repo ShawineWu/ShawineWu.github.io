@@ -31,6 +31,15 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Prepare theme
+        run: |
+          rm -rf themes/reimu
+          cp -r node_modules/hexo-theme-reimu themes/reimu
+          cp -r theme-overrides/layout/* themes/reimu/layout/
+          cp -r theme-overrides/source/* themes/reimu/source/
+          sed -i '/^theme_config_check: true$/a navigation_as_home: true' themes/reimu/_config.yml
+          grep -q "_partial/navigation" themes/reimu/source/css/style.styl || sed -i "/@import '_partial\/card';/a @import '_partial/navigation';" themes/reimu/source/css/style.styl
+
       - name: Build
         run: npm run build
 

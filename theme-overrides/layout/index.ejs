@@ -1,0 +1,5 @@
+<%_ if (theme.navigation_as_home && site.data.navigation && site.data.navigation.length) { _%>
+  <%- partial('_partial/navigation') %>
+<%_ } else { _%>
+  <%- partial('_partial/archive', { home: true }) %>
+<%_ } _%>
